@@ -1,4 +1,6 @@
-
+body {
+  font-size: 1.5em;
+}
 .rona-header{
   display: flex;
 }
@@ -11,5 +13,71 @@
   font-size: 1.8rem;
   text-decoration: none;
   color: black;
-  font-weight: 200;
+  font-weight: 100;
+}
+
+.btn {
+  border-radius: 10px;
+  border: 2px solid white;
+  color: white;
+  padding: 10px 15px;
+  font-size: 24px;
+  cursor: pointer;
+  font-weight: 100;
+}
+
+.btn-primary {
+  background: #00773E;
+}
+.btn-secondary {
+  background: transparent;
+}
+
+.carousel-item__container{
+  position: relative;
+  color: white;
+}
+
+.mr-3{
+  margin-right: 2em;
+}
+
+.carousel-item__background {
+  position: absolute;
+  top: 0 ;
+  left: 0;
+  z-index: -1;
+  filter: brightness(.4);
+}
+
+.carousel-item__main-text{
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.carousel-item__text-container{
+  transform: translate(0%, 30%);
+}
+
+.carousel-item__secondary-text{
+  margin-bottom: 15px;
+  display: block;
+}
+
+.carousel .control-prev.control-arrow::before {
+	border-right: 8px solid #fff;
+  transform: scale(5);
+}
+
+.carousel .control-next.control-arrow::before {
+	border-left: 8px solid #fff;
+	transform: scale(5);
+}
+
+.carousel .control-arrow::before, .carousel.carousel-slider .control-arrow::before {
+	margin: 0 53px;
+	display: inline-block;
+	border-top: 8px solid transparent;
+	border-bottom: 8px solid transparent;
+	content: '';
 }
