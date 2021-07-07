@@ -19,8 +19,8 @@ export default function Contact() {
                 <img src={person.picture.large} width="25%" height="auto"/>
                 <div className="profile-content" style={{width: '100%'}}>
                   <h5 style={{textAlign: 'left'}}>{Object.values(person.name).join(" ")}</h5>
-                  <p>Tel: {person.phone}</p>
-                  <p>Email: {person.email}</p>
+                  <p>Tel: {person.phone} </p>
+                  <p>Email: {person.email} </p>
                 </div>
                 <img style={{justifySelf: 'flex-end'}} width="30" height="30" src="https://w7.pngwing.com/pngs/401/19/png-transparent-computer-icons-email-direct-marketing-send-email-button-miscellaneous-angle-rectangle.png" alt="" />
               </div>
