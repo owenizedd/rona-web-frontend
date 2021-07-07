@@ -7,7 +7,7 @@ export default function(){
     <main>
       <Carousel showThumbs={false}>
         <div className="carousel-item__container">
-          <img className="carousel-item__background" src="images/slide1.png" alt="" />
+          <img className="carousel-item__background" src="/slide1.png" alt="" />
           <div className="carousel-item__text-container">
             <small>Vaccines:</small>
             <div className="carousel-item__main-text">
@@ -24,7 +24,7 @@ export default function(){
           </div>
         </div>
         <div className="carousel-item__container">
-          <img className="carousel-item__background" src="images/slide2.png" alt="" />
+          <img className="carousel-item__background" src="/slide2.png" alt="" />
           <div className="carousel-item__text-container">
             <small>About Us:</small>
             <div className="carousel-item__main-text">
@@ -41,7 +41,7 @@ export default function(){
           </div>
         </div>
         <div className="carousel-item__container">
-          <img className="carousel-item__background" src="images/slide3.png" alt="" />
+          <img className="carousel-item__background" src="/slide3.png" alt="" />
           <div className="carousel-item__text-container">
             <small>Team:</small>
             <div className="carousel-item__main-text">
@@ -56,7 +56,7 @@ export default function(){
           </div>
         </div>
         <div className="carousel-item__container">
-          <img className="carousel-item__background" src="images/slide4.png" alt="" />
+          <img className="carousel-item__background" src="/slide4.png" alt="" />
           <div className="carousel-item__text-container">
             <small>Contact: </small>
             <div className="carousel-item__main-text">

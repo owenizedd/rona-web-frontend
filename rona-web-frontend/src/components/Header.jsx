@@ -4,7 +4,7 @@ export default function(){
   
   return(
     <header className="rona-header">
-      <img src="images/header-logo.png"/>
+      <img src="/header-logo.png"/>
 
       <nav>
         <Link to="/">Covid 19</Link>

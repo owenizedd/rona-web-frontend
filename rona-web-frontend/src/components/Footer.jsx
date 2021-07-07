@@ -11,7 +11,7 @@ export default function(){
         <Link to="/">Berlin</Link>
 
       </nav>
-      <img src="images/footer-logo.png"/>
+      <img src="/footer-logo.png"/>
     </footer>
   )
 } 
