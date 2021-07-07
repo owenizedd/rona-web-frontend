@@ -8,8 +8,8 @@ export default function(){
 
       <nav>
         <Link to="/">Covid 19</Link>
-        <Link to="/">Vaccines</Link>
-        <Link to="/">About</Link>
+        <Link to="/vaccines">Vaccines</Link>
+        <Link to="/about">About</Link>
 
       </nav>
     </header>

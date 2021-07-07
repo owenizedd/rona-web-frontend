@@ -63,11 +63,14 @@ body {
   padding-bottom: 8%;
 }
 
-.carousel-item__secondary-text{
+.carousel-item__secondary-text {
   margin-bottom: 15px;
   display: block;
+  width: 50%;
+  margin: 15px auto;
   font-weight: 100;
 }
+
 .carousel .control-arrow::before, .carousel.carousel-slider .control-arrow::before {
 	margin: 0 53px !important;
 	display: inline-block;
@@ -100,4 +103,31 @@ body {
   text-decoration: none;
   color: white;
   margin-right: 100px;
+}
+
+.content-body{
+  background: #eee;
+  width: 80%;
+  margin: 0 auto;
+  padding: 15px;
+}
+.content-body h6, .content-body h5{
+  color: darkgreen;
+  font-size: 26px;
+  text-align: center;
+}
+
+.content-body h5{
+  color: maroon;
+  text-align: left;
+}
+
+.vaccine:nth-child(odd) > div > img{
+  float: left;
+}
+.vaccine:nth-child(even) > div > img{
+  float: right;
+}
+.person-content{
+  display: flex;
 }
