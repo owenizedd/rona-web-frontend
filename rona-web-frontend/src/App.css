@@ -4,6 +4,7 @@ body {
 }
 .rona-header{
   display: flex;
+  height: 145px;
 }
 .rona-header > nav {
   margin-left: auto;
@@ -29,6 +30,9 @@ body {
 
 .btn-primary {
   background: #00773E;
+}
+.color-green {
+  color: #00773e;
 }
 .btn-secondary {
   background: transparent;
@@ -59,8 +63,8 @@ body {
 }
 
 .carousel-item__text-container {
-	padding-top: 8%;
-  padding-bottom: 8%;
+	padding-top: 9%;
+  padding-bottom: 9%;
 }
 
 .carousel-item__secondary-text {
@@ -91,9 +95,9 @@ body {
 .rona-footer{
   display: flex;
   background: #7E0000;
-  padding: 60px 45px;
   align-items: center;
   justify-content: flex-end;
+  height: 145px !important;
 }
 .rona-footer > nav {
   margin-right: 50px;

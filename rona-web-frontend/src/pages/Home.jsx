@@ -52,7 +52,9 @@ export default function(){
             <span className="carousel-item__secondary-text">Get a glimpse of our structure and what each representative has does for our cause.</span>
      
             <button className="btn btn-primary mr-3">Book Appointment</button>
-            <button className="btn btn-secondary mr-3">Read More</button>
+            <Link to="/team">
+              <button className="btn btn-secondary mr-3">Read More</button>
+            </Link>
           </div>
         </div>
         <div className="carousel-item__container">

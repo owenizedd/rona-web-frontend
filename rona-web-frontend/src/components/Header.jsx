@@ -10,6 +10,8 @@ export default function(){
         <Link to="/">Covid 19</Link>
         <Link to="/vaccines">Vaccines</Link>
         <Link to="/about">About</Link>
+        <Link to="/centres">Centres</Link>
+
 
       </nav>
     </header>

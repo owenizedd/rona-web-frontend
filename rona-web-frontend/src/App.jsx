@@ -9,7 +9,9 @@ import {
   Home, 
   About,
   Vaccines,
-  Contact
+  Contact,
+  Team,
+  Centres
 } from './pages/';
 
 function App() {
@@ -30,6 +32,12 @@ function App() {
           </Route>
           <Route path="/contact" exact>
             <Contact/>
+          </Route>
+          <Route path="/team" exact>
+            <Team/>
+          </Route>
+          <Route path="/centres" exact>
+            <Centres/>
           </Route>
         </Switch>
         <Footer/>
