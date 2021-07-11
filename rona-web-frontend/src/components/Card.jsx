@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 export default function({pos, onClick}){
   
   return(
-    <div className="list-card">
+    <div className="list-card" style={{paddingRight: '20px'}}>
       <h6 className="list-card-title">Rona Impfzentrum Mitte {pos}</h6>
       <table>
         <tr>

@@ -9,13 +9,14 @@ body {
 .rona-header > nav {
   margin-left: auto;
   margin-top: auto;
+  padding-bottom: 20px;
 }
 .rona-header > nav > * {
   margin-right: 35px;
   font-size: 1.8rem;
   text-decoration: none;
   color: black;
-  font-weight: 100;
+  font-weight: 100;1111
 }
 
 .btn {
@@ -118,7 +119,7 @@ body {
 .content-body h6, .content-body h5{
   color: darkgreen;
   font-size: 26px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .content-body h5{
@@ -128,10 +129,49 @@ body {
 
 .vaccine:nth-child(odd) > div > img{
   float: left;
+  margin-right: 20px;
+
+}
+.vaccine:nth-child(odd) > h6 {
+  margin-left: 350px;
+  margin-bottom: 30px !important;
+}
+.vaccine:nth-child(even) > h6 {
+  margin-bottom: 30px !important;
+
 }
 .vaccine:nth-child(even) > div > img{
   float: right;
+  margin-left: 20px;
 }
+
 .person-content{
   display: flex;
+}
+
+.rona-header.grey{
+  background-color: #c4c4c4;
+}
+.rona-header.grey > nav{
+  padding-bottom: 50px !important;
+}
+
+.title-text{
+  color: white;
+  text-transform: capitalize;
+  margin-right: auto;
+  font-size: 2rem;
+  padding-left: 10%;
+}
+
+.btn-box:not(.false).dark{
+  background: #878787;
+}
+.btn-box.false{
+  background: #c4c4c4;
+}
+
+.btn-box.image:hover{
+  border: 2px solid blue;
+  box-sizing: border-box;
 }

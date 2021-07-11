@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import { HashRouter as Router, Switch, Route } from 'react-router-dom'
+import React, { useState, useContext } from 'react'
+import { Switch, Route, useLocation } from 'react-router-dom'
 
 import './App.css'
 import Header from './components/Header'
@@ -11,15 +11,23 @@ import {
   Vaccines,
   Contact,
   Team,
-  Centres
+  Center
 } from './pages/';
 
 function App() {
-
+  const location = useLocation();
+  const pathName = location.pathname;
   return (
     <div className="rona-web-app">
-      <Router>
-        <Header/>
+      
+
+
+        { 
+          pathName === "/" ? 
+            <Header bg="normal"/>
+            :
+            <Footer/>
+        }
         <Switch>
           <Route path="/" exact>
             <Home/>
@@ -36,12 +44,16 @@ function App() {
           <Route path="/team" exact>
             <Team/>
           </Route>
-          <Route path="/centres" exact>
-            <Centres/>
+          <Route path="/center" exact>
+            <Center/>
           </Route>
         </Switch>
-        <Footer/>
-      </Router>
+        { 
+          pathName !== "/" ? 
+            <Header bg="grey"/>
+            :
+            <Footer/>
+        }
     </div>
   )
 }

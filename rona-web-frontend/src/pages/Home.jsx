@@ -17,7 +17,9 @@ export default function(){
             </div>
             <span className="carousel-item__secondary-text">Enabling you to get back to normal with our vaccine solution for individuals with a variety of selectable serums</span>
      
-            <button className="btn btn-primary mr-3">Book Appointment</button>
+            <Link to="/center">
+              <button className="btn btn-primary mr-3">Book Appointment</button>
+            </Link>
             <Link to="/vaccines">
               <button className="btn btn-secondary mr-3">Read More</button>
             </Link>
@@ -33,8 +35,9 @@ export default function(){
               <strong>Rona Vaccine Center</strong>
             </div>
             <span className="carousel-item__secondary-text">Find out how our coorperation works and see, whether you can be any use for us.</span>
-     
-            <button className="btn btn-primary mr-3">Book Appointment</button>
+            <Link to="/center">
+              <button className="btn btn-primary mr-3">Book Appointment</button>
+            </Link>
             <Link to="/about">
               <button className="btn btn-secondary mr-3">Read More</button>
             </Link>
@@ -51,7 +54,9 @@ export default function(){
             </div>
             <span className="carousel-item__secondary-text">Get a glimpse of our structure and what each representative has does for our cause.</span>
      
-            <button className="btn btn-primary mr-3">Book Appointment</button>
+            <Link to="/center">
+              <button className="btn btn-primary mr-3">Book Appointment</button>
+            </Link>
             <Link to="/team">
               <button className="btn btn-secondary mr-3">Read More</button>
             </Link>
@@ -68,7 +73,9 @@ export default function(){
             </div>
             <span className="carousel-item__secondary-text">If you have questions regarding our business, or want apply and enhance our team, you can see contact person in charge on "Read More".</span>
      
-            <button className="btn btn-primary mr-3">Book Appointment</button>
+            <Link to="/center">
+              <button className="btn btn-primary mr-3">Book Appointment</button>
+            </Link>
             <Link to="/contact">
               <button className="btn btn-secondary mr-3">Read More</button>
             </Link>

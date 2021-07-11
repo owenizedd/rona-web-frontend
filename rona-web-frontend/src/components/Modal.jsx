@@ -12,13 +12,14 @@ export default function Modal({onClick}) {
         background: 'rgba(0,0,0,.3)',
         display: 'flex',
         justifyContent: 'center',
-        alignItems: 'center'
+        alignItems: 'center',
+
       }
     }>
       <div className="modal-box" style={{background: 'white', borderRadius: '10px', padding:'15px', width: '800px', margin: 'auto', }}>
-        <h6 className="color-green">Rona Impfzentrum Mitte 1</h6>
+        <h6 className="color-green" style={{fontSize: '1.5em', margin: '15px'}}>Rona Impfzentrum Mitte 1</h6>
         <div className="container-modal-content" style={{display: 'flex'}}>
-          <img src="/modal-pic1.png" alt="" />
+          <img src="/modal-pic1.png" alt="" style={{marginRight: '25px'}} />
           <div className="content">
             <table>
               <tr>

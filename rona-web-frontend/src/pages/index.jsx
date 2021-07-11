@@ -3,5 +3,5 @@ export { default as Vaccines} from './Vaccines';
 export { default as About} from './About';
 export { default as Contact} from './Contact';
 export { default as Team} from './Team';
-export { default as Centres} from './Centres';
+export { default as Center} from './Center';
 

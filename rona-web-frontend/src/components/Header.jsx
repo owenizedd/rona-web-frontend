@@ -1,16 +1,17 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-export default function(){
+import { Link, useLocation } from 'react-router-dom';
+export default function({bg}){
+  const location = useLocation();
   
   return(
-    <header className="rona-header">
-      <img src="/header-logo.png"/>
-
+    <header className={"rona-header " + bg}>
+      <Link to="/">
+        <img src="/header-logo.png"/>
+      </Link>
       <nav>
-        <Link to="/">Covid 19</Link>
+        <Link to="/team">Team</Link>
         <Link to="/vaccines">Vaccines</Link>
-        <Link to="/about">About</Link>
-        <Link to="/centres">Centres</Link>
+        <Link to="/contact">Contact</Link>
 
 
       </nav>
